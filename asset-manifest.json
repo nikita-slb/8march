@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/8marth/static/css/main.36160d5f.css",
+    "main.js": "/8marth/static/js/main.0dd48b48.js",
+    "static/js/453.67d615c8.chunk.js": "/8marth/static/js/453.67d615c8.chunk.js",
+    "static/media/grass.jpeg": "/8marth/static/media/grass.6556c60b0a020b0f1748.jpeg",
+    "static/media/flower-2.png": "/8marth/static/media/flower-2.8519cae87ecdbb25b46f.png",
+    "static/media/flower-6.png": "/8marth/static/media/flower-6.ba3fbe3a25d7cd6c16eb.png",
+    "static/media/flower-3.png": "/8marth/static/media/flower-3.14ce788513b8a46c86ee.png",
+    "static/media/flower-1.png": "/8marth/static/media/flower-1.7181408ca550e95b5dbb.png",
+    "static/media/flower-5.png": "/8marth/static/media/flower-5.23f1a56f2cc6c228d4db.png",
+    "static/media/flower-4.png": "/8marth/static/media/flower-4.7ffca748a709dcfdcae3.png",
+    "static/media/HarreeghPoppedCyrillic.ttf": "/8marth/static/media/HarreeghPoppedCyrillic.09be4c9cebe221071e28.ttf",
+    "index.html": "/8marth/index.html",
+    "main.36160d5f.css.map": "/8marth/static/css/main.36160d5f.css.map",
+    "main.0dd48b48.js.map": "/8marth/static/js/main.0dd48b48.js.map",
+    "453.67d615c8.chunk.js.map": "/8marth/static/js/453.67d615c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36160d5f.css",
+    "static/js/main.0dd48b48.js"
+  ]
+}
