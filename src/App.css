@@ -1,38 +1,89 @@
+@font-face {
+  font-family: 'HarreeghPoppedCyrillic';
+  src: url('./HarreeghPoppedCyrillic.ttf') format('truetype');
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  display: flex;
+  flex-flow: column nowrap;
+  background: url("./grass.jpeg");
+  min-height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'HarreeghPoppedCyrillic', sans-serif;
+}
+
+.App-header-main, .App-header span {
+  color: white;
+  text-align: center;
+  font-size: 54px;
+  font-family: 'HarreeghPoppedCyrillic', sans-serif;
+}
+
+.App-body {
+  
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-flower {
+  width: 180px;
+  height: 180px;
+  background-size: contain;
+  margin: 10px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-flower-1 {
+  background-image: url(./flower-1.png);
+}
+
+.App-flower-2 {
+  background-image: url(./flower-2.png);
+}
+
+.App-flower-3 {
+  background-image: url(./flower-3.png);
+}
+
+.App-flower-4 {
+  background-image: url(./flower-4.png);
+}
+
+.App-flower-5 {
+  background-image: url(./flower-5.png);
+}
+
+.App-flower-6 {
+  background-image: url(./flower-6.png);
+}
+
+.App-flower-selected {
+  background-image: none;
+}
+
+.App-result {
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'HarreeghPoppedCyrillic', sans-serif;
+}
+
+.App-result-text {
+  font-size: 24px;
+}
+
+.App-result-button {
+  color: purple;
+  cursor: pointer;
+}
+
+.App-result-button:hover {
+  text-decoration: underline;
 }
